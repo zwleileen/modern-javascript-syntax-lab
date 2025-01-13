@@ -90,3 +90,21 @@ const myCar = { ...anotherCar };
 myCar.make = "Peugeot";
 myCar.model = "001";
 console.log("Exercise 5: ", `Cloned: ${myCar}, Original: ${anotherCar}`);
+
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like
+//    'username', 'age', or 'email') to it.
+//
+// b. Create an object named `userProfile`.
+//
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+const propertyName = "age";
+const userProfile = {
+  [propertyName]: 30,
+};
+console.log("Exercise 6: ", userProfile);
