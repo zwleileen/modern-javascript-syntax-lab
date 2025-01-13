@@ -162,3 +162,5 @@ console.log("Exercise 9: ", taste);
 
 // Simulated language configuration (change this variable to test)
 const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+const lang = localLangConfig || "en";
+console.log("Exercise 10: ", lang);
